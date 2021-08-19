@@ -22,9 +22,16 @@ API_SECRET = VALUE
 ## Make shell scripts executables
 
 ```
-> chmod +x certbot_kickoff.sh
+> chmod +x kickoff.sh
 > chmod +x dns_challenge_hook.sh
+> chmod +x cert_processor.sh
 ```
 ## Kickoff the certificate renewal process
 
 `./kickoff.sh`
+
+## Run Cert Processor
+
+Once the renewed certificates have been generated,
+* Update the paths and passwords in the `cert_processor.sh` to point to the folder of your choice
+* Run `./cert_processor.sh`

@@ -16,4 +16,4 @@ echo "domain: ${domain}"
 python godaddy_dns_modifier.py --domain $domain --name _acme-challenge.$subdomain_name --type TXT --data $CERTBOT_VALIDATION
 
 # Forcing to wait so we allow enough time for changes to propagate in godaddy servers before next step
-sleep 30
+sleep 20
