@@ -18,6 +18,13 @@ API_SECRET = VALUE
 ```
 
 ---
-## Run the `godaddy_dns_modifier` script with appropriate values
 
-`python godaddy_dns_modifier.py --domain veniqa.com --name _acme-challenge.admin-server --type TXT --data secretkey`
+## Make shell scripts executables
+
+```
+> chmod +x certbot_kickoff.sh
+> chmod +x dns_challenge_hook.sh
+```
+## Kickoff the certificate renewal process
+
+`./kickoff.sh`

@@ -1,0 +1,2 @@
+certbot certonly --manual --preferred-challenges dns -d admin-server.veniqa.com --manual-auth-hook ./dns_challenge_hook.sh --manual-public-ip-logging-ok
+certbot certonly --manual --preferred-challenges dns -d shop-server.veniqa.com --manual-auth-hook ./dns_challenge_hook.sh --manual-public-ip-logging-ok
