@@ -1,4 +1,4 @@
-# Example command: python godaddy_dns_modifier.py --domain veniqa.com --name _acme-challenge.admin-server --type TXT --data secretkey
+# Example command: python dns_modifier.py --domain veniqa.com --name _acme-challenge.admin-server --type TXT --data secretkey
 
 from godaddypy import Client, Account
 import configparser

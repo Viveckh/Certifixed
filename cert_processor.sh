@@ -15,3 +15,7 @@ copy_and_convert_certificate() {
 # Copy the certificates to the backup folder and convert them to pfx as necessary
 copy_and_convert_certificate "${local_cert_folder}/admin-server.veniqa.com-0003" "${local_backup_folder}/admin-server.veniqa.com" "YOUR_PASSWORD_HERE"
 copy_and_convert_certificate "${local_cert_folder}/shop-server.veniqa.com" "${local_backup_folder}/shop-server.veniqa.com" "YOUR_PASSWORD_HERE"
+
+# Activate python virtual env & run the uploader
+source venv/bin/activate
+python cert_uploader.py
