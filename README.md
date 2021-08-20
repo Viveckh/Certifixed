@@ -1,6 +1,31 @@
-# ssl-cert-renewal-suite
-## Author: [(EJ) Vivek Pandey](https://viveckh.com)
+<p align="center">
+  <a href="https://github.com/Viveckh">
+    <img src="https://www.veniqa.com/img/certifixed/certifixed-logo.png" width="300px" alt="Certifixed: SSL Certification Renewal Suite. " />
+  </a>
+</p>
+<p align="center">
+<strong>CERTIFIXED</strong><i> - SSL Certification Renewal Suite.</i>
+<br>
+<br>Automated bot that finishes domain verification challenges with Godaddy, renews SSL certificates with letsencrypt, converts certificates to pfx, and replaces the expired version in Azure Vault.
+<br>
+<br> &#8680; <strong>Technologies: </strong> Python, Shell Scripting, Godaddy API, Azure API
+<br> &#8680; <strong>Author: </strong> (EJ) Vivek Pandey
+</p>
+
+<p align="center">
+  <a href="https://viveckh.com" target="_blank">Author's Website</a> |
+  <a href="https://github.com/Viveckh" target="_blank">Author's Github</a> |
+</p>
+
 ---
+
+<i>Coded it one weekend to simplify my own life, 
+
+Definitely feel free to drop in issues or PR if interested in pushing this project further.</i>
+
+---
+
+# Quickstart
 ## Setup virtual env & depedencies
 
 ```
