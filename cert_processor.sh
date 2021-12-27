@@ -1,4 +1,5 @@
 # local directories to use
+script_dir="$(pwd)"
 local_cert_folder="/etc/letsencrypt/live"
 local_backup_folder="/Users/Shared/Playground/CodeForLyf/ssl-certificates"
 
@@ -17,5 +18,6 @@ copy_and_convert_certificate "${local_cert_folder}/admin-server.veniqa.com-0003"
 copy_and_convert_certificate "${local_cert_folder}/shop-server.veniqa.com" "${local_backup_folder}/shop-server.veniqa.com" "YOUR_PASSWORD_HERE"
 
 # Activate python virtual env & run the uploader
+cd "$script_dir"
 source venv/bin/activate
 python cert_uploader.py
